@@ -1,0 +1,4 @@
+.r3d-90 {
+    transform: rotatey(180deg)
+}
+.r3d--90 {transform: rotateY(-90deg);}

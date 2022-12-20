@@ -1,0 +1,74 @@
+:root {
+    --bg-trans: #ffffff10;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("../res/wallpapers/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-bottom-nav {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    display: grid;
+    align-items: center;
+}
+
+.bottom-nav-bar {
+    display: flex;
+    gap: 16px;
+    align-content: center;
+
+    margin: auto;
+    padding: 10px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(30px);
+    border: 1px solid var(--bg-trans);
+    border-radius: 15px;
+}
+
+.bottom-nav-bar img,
+.app-icons {
+    max-width: 5cqh;
+}
+
+/* ============================= */
+.tab-bar {
+    display: flex;
+    height: 30px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(50px);
+    padding-inline: 5px;
+    color: #fff;
+    font-size: 11px;
+    justify-content: space-between;
+}
+
+.tab-bar-start img {
+    transform: scale(.4);
+}
+
+.tab-bar-start,
+.tab-bar-end {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tab-bar-end {
+    color: #fff;
+    text-decoration: none;
+}
+.tab-bar-end img {
+  transform: rotatey(180deg) scale(.3);
+}
